@@ -30,7 +30,7 @@ header{background:transparent;border-bottom:1px solid #d8c5a0}
 header .brand{mix-blend-mode:multiply;mask-image:linear-gradient(to right,transparent,#000 8%,#000 92%,transparent),linear-gradient(to bottom,transparent,#000 10%,#000 88%,transparent);mask-composite:intersect;-webkit-mask-image:linear-gradient(to right,transparent,#000 8%,#000 92%,transparent),linear-gradient(to bottom,transparent,#000 10%,#000 88%,transparent);-webkit-mask-composite:source-in}
 .items{gap:22px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
 .item{display:block;padding:0;border:1px solid #dfcfaf;background:#fffaf0;border-radius:14px;overflow:hidden;box-shadow:0 4px 15px #59402208}
-.photo{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#f1e5ce}
+.photo{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:#f1e5ce}
 .photo-pending{aspect-ratio:4/3;display:grid;place-items:center;background:linear-gradient(135deg,#f3e6ca,#fff5df);color:#8c7b5f;font-size:13px}
 .item-body{padding:17px}.item-heading{display:flex;justify-content:space-between;align-items:start;gap:12px}.name{line-height:1.4}.price{padding-top:2px}
 details.extras{margin-top:15px;border-top:1px solid #e2d3b7;padding-top:12px}details.extras summary{color:#526822;font-weight:650;font-size:14px;cursor:pointer;min-height:28px}
@@ -102,7 +102,7 @@ async function updateMenu() {
   if (syncing) return;
   syncing = true;
   try {
-    const response = await fetch('/api/menu', {cache:'no-store', signal:AbortSignal.timeout(30000)});
+    const response = await fetch('/api/menu', {signal:AbortSignal.timeout(30000)});
     if (!response.ok) throw new Error('No se pudo actualizar');
     const data = await response.json();
     if (!Array.isArray(data.products) || data.products.some(p => typeof p.name !== 'string' || typeof p.category !== 'string' || typeof p.price !== 'number' || !Number.isFinite(p.price))) throw new Error('Datos inválidos');
