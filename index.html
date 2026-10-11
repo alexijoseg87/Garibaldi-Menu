@@ -4,73 +4,161 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17110d">
 <title>Garibaldi | Menú Digital</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;background:#fff8ef;color:#29211d;font-family:Arial,sans-serif}
-header{background:#a71d24;color:white;text-align:center;padding:35px 16px}
-header h1{font-size:42px;margin:0}
-header p{margin:10px 0}
-nav{display:flex;gap:8px;overflow-x:auto;padding:15px;background:white;position:sticky;top:0}
-nav button{border:0;background:#f2e5d7;border-radius:20px;padding:12px;white-space:nowrap}
-nav button:focus{background:#a71d24;color:white}
-main{max-width:850px;margin:auto;padding:18px}
-h2{color:#a71d24}
-.item{background:white;border-radius:14px;padding:18px;margin:12px 0;box-shadow:0 2px 8px #0001}
-.item h3{margin:0 0 8px}
-.item p{color:#666}
-.precio{font-weight:bold;color:#a71d24}
-footer{text-align:center;padding:30px;background:#29211d;color:white}
+body{margin:0;background:#f7f3ec;color:#261c16;font-family:Arial,sans-serif}
+header{background:#17110d;color:white;text-align:center;padding:35px 16px}
+.logo{font-size:38px;font-weight:900;letter-spacing:3px;color:#f6bd60}
+.subtitle{color:#e5d7c4;margin:12px 0}
+.status{display:inline-block;border:1px solid #ae8853;border-radius:25px;padding:9px 15px;font-size:13px}
+nav{position:sticky;top:0;background:#fff;display:flex;gap:8px;overflow-x:auto;padding:12px;box-shadow:0 2px 8px #0002;z-index:5}
+nav a{white-space:nowrap;text-decoration:none;color:#fff;background:#8c2720;border-radius:25px;padding:10px 15px;font-size:14px}
+main{max-width:850px;margin:auto;padding:15px}
+h2{color:#81251e;border-bottom:2px solid #d9b88b;padding-bottom:12px;margin-top:35px}
+.item{background:#fff;border-radius:14px;padding:18px;margin:12px 0;display:flex;justify-content:space-between;align-items:center;gap:15px;box-shadow:0 2px 7px #0001}
+.item h3{margin:0 0 7px;font-size:18px}
+.item p{margin:0;color:#756b64;font-size:14px;line-height:1.5}
+.price{color:#9b3522;font-size:18px;font-weight:bold;white-space:nowrap}
+.notice{background:#fff3df;border-radius:12px;padding:16px;margin:20px 0;font-size:14px}
+footer{text-align:center;background:#17110d;color:#eee;padding:30px 15px;margin-top:35px}
+footer p{font-size:14px;color:#c6b7a6}
+.hidden{display:none}
 </style>
 </head>
 <body>
+
 <header>
-<h1>🍕 GARIBALDI</h1>
-<p>Pizzería · Placetas, Villa Clara</p>
-<p>¡Bienvenidos a nuestro menú digital!</p>
+<div class="logo">GARIBALDI</div>
+<p class="subtitle">Pizzería · Placetas, Villa Clara, Cuba</p>
+<div class="status">Bienvenido a nuestro menú digital</div>
 </header>
 
-<nav>
-<button onclick="ver('pizzas')">🍕 Pizzas</button>
-<button onclick="ver('pastas')">🍝 Pastas</button>
-<button onclick="ver('bebidas')">🥤 Bebidas</button>
-<button onclick="ver('otros')">🍽️ Otros</button>
-</nav>
-
-<main id="menu"></main>
+<nav id="navigation"></nav>
+<main>
+<div class="notice">
+Consulta nuestras especialidades. Los precios y la disponibilidad se confirmarán en el establecimiento.
+</div>
+<div id="menu"></div>
+</main>
 
 <footer>
-<p>GARIBALDI</p>
-<p>Placetas, Villa Clara, Cuba</p>
-<p>Precios y disponibilidad sujetos a confirmación.</p>
+<strong>GARIBALDI</strong>
+<p>Placetas · Villa Clara · Cuba</p>
+<p>Gracias por visitarnos</p>
 </footer>
 
 <script>
-const productos={
-pizzas:[],
-pastas:[],
-bebidas:[],
-otros:[]
-};
+/*
+ MENÚ GARIBALDI
+ Para añadir productos reales, modifica la lista
+ de productos de cada categoría.
+ El precio vacío significa "Consultar".
+*/
 
-function ver(categoria){
-const nombres={
-pizzas:"🍕 Pizzas",
-pastas:"🍝 Pastas",
-bebidas:"🥤 Bebidas",
-otros:"🍽️ Otros"
-};
-const lista=productos[categoria];
-document.getElementById("menu").innerHTML=
-"<h2>"+nombres[categoria]+"</h2>"+
-(lista.length?lista.map(p=>
-'<div class="item"><h3>'+p.nombre+
-'</h3><p>'+p.descripcion+
-'</p><span class="precio">'+p.precio+
-'</span></div>').join(""):
-'<div class="item">Próximamente publicaremos nuestros productos y precios.</div>');
+const categorias = [
+  {
+    nombre:"Pizzas",
+    icono:"🍕",
+    productos:[]
+  },
+  {
+    nombre:"Espaguetis",
+    icono:"🍝",
+    productos:[]
+  },
+  {
+    nombre:"Hamburguesas",
+    icono:"🍔",
+    productos:[]
+  },
+  {
+    nombre:"Bebidas",
+    icono:"🥤",
+    productos:[]
+  },
+  {
+    nombre:"Otros",
+    icono:"🍽️",
+    productos:[]
+  }
+];
+
+/*
+ Ejemplo de producto:
+ {
+   nombre:"Pizza de queso",
+   descripcion:"Pizza artesanal",
+   precio:500
+ }
+ Los valores de ejemplo NO se publican.
+*/
+
+const pedidosHabilitados = false;
+const moneda = "CUP";
+
+function iniciarMenu(){
+ const nav=document.getElementById("navigation");
+ const menu=document.getElementById("menu");
+
+ categorias.forEach((categoria,i)=>{
+  const id="categoria-"+i;
+
+  const enlace=document.createElement("a");
+  enlace.href="#"+id;
+  enlace.textContent=categoria.icono+" "+categoria.nombre;
+  nav.appendChild(enlace);
+
+  const seccion=document.createElement("section");
+  seccion.id=id;
+
+  const titulo=document.createElement("h2");
+  titulo.textContent=categoria.icono+" "+categoria.nombre;
+  seccion.appendChild(titulo);
+
+  if(categoria.productos.length===0){
+   const aviso=document.createElement("div");
+   aviso.className="item";
+   aviso.textContent="Productos próximamente";
+   seccion.appendChild(aviso);
+  }
+
+  categoria.productos.forEach(producto=>{
+   const articulo=document.createElement("div");
+   articulo.className="item";
+
+   const informacion=document.createElement("div");
+   const nombre=document.createElement("h3");
+   nombre.textContent=producto.nombre;
+
+   const descripcion=document.createElement("p");
+   descripcion.textContent=producto.descripcion||"";
+
+   informacion.append(nombre,descripcion);
+
+   const precio=document.createElement("div");
+   precio.className="price";
+   precio.textContent=
+    producto.precio!==undefined &&
+    producto.precio!==null &&
+    producto.precio!==""
+    ?Number(producto.precio).toLocaleString("es-ES")+" "+moneda
+    :"Consultar";
+
+   articulo.append(informacion,precio);
+   seccion.appendChild(articulo);
+  });
+
+  menu.appendChild(seccion);
+ });
+
+ if(pedidosHabilitados){
+  console.log("Pedidos habilitados: falta configurar la integración.");
+ }
 }
-ver("pizzas");
+
+iniciarMenu();
 </script>
 </body>
 </html>
