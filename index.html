@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garibaldi | Menú Digital</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff8ef;color:#29211d;font-family:Arial,sans-serif}
+header{background:#a71d24;color:white;text-align:center;padding:35px 16px}
+header h1{font-size:42px;margin:0}
+header p{margin:10px 0}
+nav{display:flex;gap:8px;overflow-x:auto;padding:15px;background:white;position:sticky;top:0}
+nav button{border:0;background:#f2e5d7;border-radius:20px;padding:12px;white-space:nowrap}
+nav button:focus{background:#a71d24;color:white}
+main{max-width:850px;margin:auto;padding:18px}
+h2{color:#a71d24}
+.item{background:white;border-radius:14px;padding:18px;margin:12px 0;box-shadow:0 2px 8px #0001}
+.item h3{margin:0 0 8px}
+.item p{color:#666}
+.precio{font-weight:bold;color:#a71d24}
+footer{text-align:center;padding:30px;background:#29211d;color:white}
+</style>
+</head>
+<body>
+<header>
+<h1>🍕 GARIBALDI</h1>
+<p>Pizzería · Placetas, Villa Clara</p>
+<p>¡Bienvenidos a nuestro menú digital!</p>
+</header>
+
+<nav>
+<button onclick="ver('pizzas')">🍕 Pizzas</button>
+<button onclick="ver('pastas')">🍝 Pastas</button>
+<button onclick="ver('bebidas')">🥤 Bebidas</button>
+<button onclick="ver('otros')">🍽️ Otros</button>
+</nav>
+
+<main id="menu"></main>
+
+<footer>
+<p>GARIBALDI</p>
+<p>Placetas, Villa Clara, Cuba</p>
+<p>Precios y disponibilidad sujetos a confirmación.</p>
+</footer>
+
+<script>
+const productos={
+pizzas:[],
+pastas:[],
+bebidas:[],
+otros:[]
+};
+
+function ver(categoria){
+const nombres={
+pizzas:"🍕 Pizzas",
+pastas:"🍝 Pastas",
+bebidas:"🥤 Bebidas",
+otros:"🍽️ Otros"
+};
+const lista=productos[categoria];
+document.getElementById("menu").innerHTML=
+"<h2>"+nombres[categoria]+"</h2>"+
+(lista.length?lista.map(p=>
+'<div class="item"><h3>'+p.nombre+
+'</h3><p>'+p.descripcion+
+'</p><span class="precio">'+p.precio+
+'</span></div>').join(""):
+'<div class="item">Próximamente publicaremos nuestros productos y precios.</div>');
+}
+ver("pizzas");
+</script>
+</body>
+</html>
