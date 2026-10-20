@@ -154,11 +154,11 @@ function includeRequestedBeers(){
 function includeRequestedJuice(){
   const name='Jugo de Mango Pomo';
   if(!products.some(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) products.push({id:'loyverse-406451007',name,category:'Refrescos',price:700,description:'',modifier_groups:[]});
-  for(const p of products.filter(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) menuMedia[p.name]={src:'garibaldi-jugo-mango-pomo-actual.jpg',illustrative:false,pack:true};
+  for(const p of products.filter(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) menuMedia[p.name]={src:'garibaldi-jugo-mango-estilo.jpg',illustrative:true,pack:true};
 }
 includeRequestedJuice();
 includeRequestedBeers();
-function menuVisible(p){return p.id==='90de5c1c-3db1-4400-b960-a462dc6432b7'||!/^pizza.*fam/i.test(p.name)}
+function menuVisible(p){if(/^jugo manzana lata$/i.test(p.name.trim()))return false;return p.id==='90de5c1c-3db1-4400-b960-a462dc6432b7'||!/^pizza.*fam/i.test(p.name)}
 function render(){
   const q=search.value.toLocaleLowerCase('es').trim();nav.replaceChildren();content.replaceChildren();let found=0;const deliveryLink=element('a',null,'Pedido a domicilio');deliveryLink.href='#domicilio';nav.append(deliveryLink);const directionsLink=element('a',null,'Ubicación');directionsLink.href='#como-llegar';nav.append(directionsLink);
   categories.forEach((cat,i)=>{
