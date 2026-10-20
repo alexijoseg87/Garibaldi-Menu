@@ -107,7 +107,7 @@ function displayName(p){
   if(p.id==='90de5c1c-3db1-4400-b960-a462dc6432b7')return 'Pizza familiar de queso gouda';
   if(correctedNames[p.name])return correctedNames[p.name];
   const n=p.name;
-  if(/^Refresco /i.test(n))return 'Refresco de '+n.replace(/^Refresco /i,'').toLocaleLowerCase('es').replace('limon','limón');
+  if(/^Refresco /i.test(n))return 'Refresco de '+n.replace(/^Refresco /i,'').toLocaleLowerCase('es').replace('limon','limón')+' gaseado';
   if(n==='Agua 500ml')return 'Agua Ciego Montero · 500 ml';
   if(n==='Jugo de Piña Bravo')return 'Jugo de piña · cajita';
   if(n==='Malta Bucanero')return 'Malta';
