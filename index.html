@@ -135,9 +135,15 @@ function productCard(p) {
     });details.append(fieldset);
   });updateTotal();details.append(total,element('p','extra-note','Los extras elegidos se incluyen al añadir este plato al pedido.'));body.append(details,add);return card;
 }
+// Prices and product names verified in Loyverse on 2026-10-20.
 function includeRequestedBeers(){
-  for(const name of ['Corona','Coronita']){
-    if(!products.some(p=>p.name.toLowerCase().includes(name.toLowerCase())&&(name!=='Corona'||!/coronita/i.test(p.name)))) products.push({id:'menu-'+name.toLowerCase(),name,category:'Cerveza',price:null,description:''});
+  const beers=[{id:'loyverse-141145248',name:'Cerveza Corona',price:1800,image_url:'garibaldi-corona-mejorada.jpg'},
+    {id:'loyverse-406483918',name:'Coronita Extra',price:1400,image_url:'garibaldi-coronita-mejorada.jpg'}];
+  for(const beer of beers){
+    const match=products.find(p=>/coron/i.test(p.name)&&(/coronita/i.test(p.name)===/coronita/i.test(beer.name)));
+    if(!match) products.push({...beer,category:'Cerveza',description:'',modifier_groups:[]});
+    const name=match?.name||beer.name;
+    menuMedia[name]={src:beer.image_url,illustrative:false,pack:true};
   }
 }
 includeRequestedBeers();
