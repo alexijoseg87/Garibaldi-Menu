@@ -149,7 +149,7 @@ function includeRequestedBeers(){
 function includeRequestedJuice(){
   const name='Jugo de Mango Pomo';
   if(!products.some(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) products.push({id:'loyverse-406451007',name,category:'Refrescos',price:700,description:'',modifier_groups:[]});
-  for(const p of products.filter(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) menuMedia[p.name]={src:'garibaldi-jugo-mango-pomo.jpg',illustrative:false,pack:true};
+  for(const p of products.filter(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) menuMedia[p.name]={src:'garibaldi-jugo-mango-pomo-actual.jpg',illustrative:false,pack:true};
 }
 includeRequestedJuice();
 includeRequestedBeers();
