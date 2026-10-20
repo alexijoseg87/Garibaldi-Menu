@@ -146,6 +146,12 @@ function includeRequestedBeers(){
     menuMedia[name]={src:beer.image_url,illustrative:false,pack:true};
   }
 }
+function includeRequestedJuice(){
+  const name='Jugo de Mango Pomo';
+  if(!products.some(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) products.push({id:'loyverse-406451007',name,category:'Refrescos',price:700,description:'',modifier_groups:[]});
+  for(const p of products.filter(p=>/mango/i.test(p.name)&&/pomo/i.test(p.name))) menuMedia[p.name]={src:'garibaldi-jugo-mango-pomo.jpg',illustrative:false,pack:true};
+}
+includeRequestedJuice();
 includeRequestedBeers();
 function menuVisible(p){return !/^pizza.*fam/i.test(p.name)}
 function render(){
@@ -181,6 +187,7 @@ async function updateMenu() {
     availableModifiers = Array.isArray(data.modifier_groups) ? data.modifier_groups : [];
     products.splice(0, products.length, ...data.products.map(p => ({...p,description:plainDescription(p.description || '')})));
     includeRequestedBeers();
+    includeRequestedJuice();
     for (const p of products) if (!categories.includes(p.category)) categories.push(p.category);
     lastSync = new Date(data.updated_at);
     render();renderOrder();
