@@ -18,3 +18,9 @@
 Se preparó la foto `garibaldi-cristal-botella.jpg` y la asociación automática por nombre para Cristal normal de botella. Se conserva el ID y precio de Loyverse y se aplica también después de cada sincronización. La consulta de API realizada inicialmente solo devolvió Cristal Extra, Cristal Extra Botella y Cristal Lata; confirmar la presencia del nuevo producto en Loyverse antes de afirmar que ya aparece en el menú.
 
 Foto generada con la herramienta integrada de imágenes. Prompt: una botella completa de Cristal cubana regular, cristal verde, tapa plateada, etiqueta roja y blanca con palmera y sin la palabra Extra, centrada con condensación, fondo y mesa beige e iluminación cálida igual a las otras cervezas.
+
+Se confirmó en la interfaz de Loyverse el artículo «Cristal de Botella», REF 10077, ID interno 365748248, disponible para venta y con precio de 1.100 CUP. La API pública aún lo omite. Corregir la integración sin fijar manualmente el precio.
+
+Halloween: usuario eligió estilo festivo (calabazas, fantasmas y naranja). Debe revisar y aprobar la vista previa antes de publicar el tema. Vista previa local en el espacio de trabajo del chat del 2026-10-28, `work/halloween-preview/`.
+
+Halloween aprobado para publicación el 2026-10-28: logo transparente, violeta más claro detrás del logo, tarjetas crema y botones naranjas.
