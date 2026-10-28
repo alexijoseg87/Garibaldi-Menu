@@ -103,7 +103,12 @@ document.getElementById('delivery-form').addEventListener('submit',event=>{
   window.open('https://wa.me/5353073747?text='+encodeURIComponent(message),'_blank','noopener');
 });
 const correctedNames={"Café Bombón": "Café bombón", "Café Expreso": "Café expreso", "Caipirisima": "Caipirísima", "Calzon Supremo": "Calzone supremo", "Cerv La Fria": "Cerveza La Fría", "Cerveza Beer Botella": "Cerveza Beer · botella", "Chuleta Ahumada": "Chuleta ahumada", "Costillas al Plato": "Costillas al plato", "Cristal Extra Botella": "Cristal Extra · botella", "Cristal Lata": "Cristal · lata", "Daikiri": "Daiquirí", "Ensalada Fria": "Ensalada fría", "Espagueti queso gouda": "Espagueti con queso gouda", "Frapuchino": "Frappuccino", "Hamb Cerdo": "Hamburguesa de cerdo", "Hamb Cerdo JQ": "Hamburguesa de cerdo con jamón y queso", "Hamb Doble": "Hamburguesa doble", "Hamb Garibaldi": "Hamburguesa Garibaldi", "Hamb Hawaiana": "Hamburguesa hawaiana", "Hamb Pollo": "Hamburguesa de pollo", "Hamb Pollo JQ": "Hamburguesa de pollo con jamón y queso", "Jugo de Coctel 250 ml": "Jugo de cóctel", "Jugo de Pera 200 ml": "Jugo de pera", "Jugo de Piña Natural": "Jugo natural de piña", "Jugo Manzana": "Jugo de manzana", "Jugo Manzana lata": "Jugo de manzana · lata", "Jugo Pera lata": "Jugo de pera · lata", "Jugo Piña lata": "Jugo de piña · lata", "Laguna Azul": "Laguna azul", "Limonada Frape": "Limonada frappé", "Mocha Frapuchino": "Frappuccino de moca", "Piña Colada": "Piña colada", "Pizza Bacon": "Pizza de beicon", "Pizza de Atún":"Pizza de atún", "Pizza de Queso Gouda": "Pizza de queso gouda", "Pizza Hawaiana": "Pizza hawaiana", "Pizzagueti Queso Gouda": "Pizzagueti con queso gouda", "Sangria": "Sangría", "shot tequila": "Shot de tequila", "Tapa de Aceitunas": "Tapa de aceitunas", "Tinto de Verano": "Tinto de verano", "Tiritas de Cerdo": "Tiritas de cerdo"};
+function isRegularCristalBottle(p){
+  const name=p.name.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  return /\bcristal\b/.test(name)&&/\bbotellas?\b/.test(name)&&!/\b(?:extra|lata|latas)\b/.test(name);
+}
 function displayName(p){
+  if(isRegularCristalBottle(p))return "Cristal · botella";
   if(/mango/i.test(p.name)&&/pomo/i.test(p.name))return 'Néctar de Mango';
   if(/^jugo .+ lata$/i.test(p.name.trim()))return 'Néctar de '+p.name.replace(/^jugo /i,'').replace(/ lata$/i,'').toLocaleLowerCase('es');
   if(p.id==='90de5c1c-3db1-4400-b960-a462dc6432b7')return 'Pizza familiar de queso gouda';
@@ -144,6 +149,10 @@ function productCard(p) {
 }
 // Prices and product names verified in Loyverse on 2026-10-20.
 function includeRequestedBeers(){
+  // Regular bottled Cristal comes exclusively from Loyverse: preserve its ID and price.
+  for(const p of products.filter(isRegularCristalBottle)){
+    menuMedia[p.name]={src:'garibaldi-cristal-botella.jpg',illustrative:true,pack:true};
+  }
   const beers=[{id:'loyverse-141145248',name:'Cerveza Corona',price:1800,image_url:'garibaldi-corona-mejorada.jpg'},
     {id:'loyverse-406483918',name:'Coronita Extra',price:1400,image_url:'garibaldi-coronita-mejorada.jpg'}];
   for(const beer of beers){
