@@ -24,3 +24,11 @@ Se confirmó en la interfaz de Loyverse el artículo «Cristal de Botella», REF
 Halloween: usuario eligió estilo festivo (calabazas, fantasmas y naranja). Debe revisar y aprobar la vista previa antes de publicar el tema. Vista previa local en el espacio de trabajo del chat del 2026-10-28, `work/halloween-preview/`.
 
 Halloween aprobado para publicación el 2026-10-28: logo transparente, violeta más claro detrás del logo, tarjetas crema y botones naranjas.
+
+## Estado final del 2026-10-28
+
+- Halloween publicado, commit 195790b y ajustes posteriores de contexto/snapshot.
+- Causa de Cristal ausente: lista `allowed` del Worker `garibaldi-api`; se añadió únicamente «Cristal de Botella».
+- Worker desplegado desde Cloudflare, versión 242aab8a. Fuente respaldada en `backend/garibaldi-api-worker.js`. Editar ese archivo en Git no despliega automáticamente el Worker de API; publicar desde el panel o flujo autenticado existente.
+- API verificada: «Cristal de Botella», ID de variante 376d880e-ec4b-4c7b-9aa5-dae0e676ea72, 1.100 CUP obtenidos de Loyverse. Se mantiene la sincronización automática y la foto local ilustrativa.
+- Menú público verificado con las cuatro Cristal distintas: botella normal, Extra, Extra botella y lata.
