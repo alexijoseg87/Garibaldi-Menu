@@ -1,0 +1,1406 @@
+[
+  {
+    "source": "garibaldi-aceitunas.jpg",
+    "original_bytes": 126872,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-aceitunas-480.webp",
+        "bytes": 13954,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-aceitunas-800.webp",
+        "bytes": 28454,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-agua-ciego.png",
+    "original_bytes": 483336,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-agua-ciego-480.webp",
+        "bytes": 33450,
+        "width": 480,
+        "height": 721
+      },
+      {
+        "file": "images/optimized/garibaldi-agua-ciego-800.webp",
+        "bytes": 51882,
+        "width": 666,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-atun.jpg",
+    "original_bytes": 205456,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-atun-480.webp",
+        "bytes": 30576,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-atun-800.webp",
+        "bytes": 61644,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-banderillas.jpg",
+    "original_bytes": 149378,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-banderillas-480.webp",
+        "bytes": 18622,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-banderillas-800.webp",
+        "bytes": 36968,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-bombon.jpg",
+    "original_bytes": 114454,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-bombon-480.webp",
+        "bytes": 11702,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-bombon-800.webp",
+        "bytes": 24596,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-caipirisima.jpg",
+    "original_bytes": 154383,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-caipirisima-480.webp",
+        "bytes": 17886,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-caipirisima-800.webp",
+        "bytes": 38152,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-caipirosca.jpg",
+    "original_bytes": 123424,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-caipirosca-480.webp",
+        "bytes": 11356,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-caipirosca-800.webp",
+        "bytes": 25000,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-calzon.jpg",
+    "original_bytes": 153007,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-calzon-480.webp",
+        "bytes": 18060,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-calzon-800.webp",
+        "bytes": 35826,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cerv-la-fria.jpg",
+    "original_bytes": 135593,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cerv-la-fria-480.webp",
+        "bytes": 15848,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cerv-la-fria-800.webp",
+        "bytes": 35176,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cerveza-beer-botella.jpg",
+    "original_bytes": 104802,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cerveza-beer-botella-480.webp",
+        "bytes": 11002,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cerveza-beer-botella-800.webp",
+        "bytes": 24070,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cerveza-bucanero-mejorada.jpg",
+    "original_bytes": 307093,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cerveza-bucanero-mejorada-480.webp",
+        "bytes": 12096,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cerveza-bucanero-mejorada-800.webp",
+        "bytes": 28228,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cerveza-mayabe.jpg",
+    "original_bytes": 85067,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cerveza-mayabe-480.webp",
+        "bytes": 8572,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cerveza-mayabe-800.webp",
+        "bytes": 18406,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cerveza-windmill.jpg",
+    "original_bytes": 143178,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cerveza-windmill-480.webp",
+        "bytes": 15322,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cerveza-windmill-800.webp",
+        "bytes": 34666,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-chicharritas.jpg",
+    "original_bytes": 155618,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-chicharritas-480.webp",
+        "bytes": 17116,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-chicharritas-800.webp",
+        "bytes": 35928,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-chuleta.jpg",
+    "original_bytes": 195655,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-chuleta-480.webp",
+        "bytes": 21946,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-chuleta-800.webp",
+        "bytes": 48674,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-colada-galleta.jpg",
+    "original_bytes": 160809,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-colada-galleta-480.webp",
+        "bytes": 19660,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-colada-galleta-800.webp",
+        "bytes": 41698,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-corona-mejorada.jpg",
+    "original_bytes": 234594,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-corona-mejorada-480.webp",
+        "bytes": 8262,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-corona-mejorada-800.webp",
+        "bytes": 18740,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-coronita-mejorada.jpg",
+    "original_bytes": 269529,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-coronita-mejorada-480.webp",
+        "bytes": 9936,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-coronita-mejorada-800.webp",
+        "bytes": 23862,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cortadito.jpg",
+    "original_bytes": 109570,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cortadito-480.webp",
+        "bytes": 10780,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cortadito-800.webp",
+        "bytes": 21944,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-costillas.jpg",
+    "original_bytes": 216861,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-costillas-480.webp",
+        "bytes": 26896,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-costillas-800.webp",
+        "bytes": 65178,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cristal-botella.jpg",
+    "original_bytes": 256486,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cristal-botella-480.webp",
+        "bytes": 10972,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cristal-botella-800.webp",
+        "bytes": 24294,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cristal-extra-botella.jpg",
+    "original_bytes": 96414,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cristal-extra-botella-480.webp",
+        "bytes": 9904,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cristal-extra-botella-800.webp",
+        "bytes": 21140,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cristal-extra.jpg",
+    "original_bytes": 109535,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cristal-extra-480.webp",
+        "bytes": 11298,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cristal-extra-800.webp",
+        "bytes": 25300,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cristal-lata.jpg",
+    "original_bytes": 101764,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cristal-lata-480.webp",
+        "bytes": 11402,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cristal-lata-800.webp",
+        "bytes": 22882,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-croquetas.jpg",
+    "original_bytes": 174046,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-croquetas-480.webp",
+        "bytes": 22534,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-croquetas-800.webp",
+        "bytes": 46908,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-cubalibre.jpg",
+    "original_bytes": 157808,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-cubalibre-480.webp",
+        "bytes": 18124,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-cubalibre-800.webp",
+        "bytes": 41266,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-daikiri.jpg",
+    "original_bytes": 100617,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-daikiri-480.webp",
+        "bytes": 9978,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-daikiri-800.webp",
+        "bytes": 19680,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-destornillador.jpg",
+    "original_bytes": 111043,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-destornillador-480.webp",
+        "bytes": 11194,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-destornillador-800.webp",
+        "bytes": 22794,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-ensalada-fria.jpg",
+    "original_bytes": 148767,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-ensalada-fria-480.webp",
+        "bytes": 17482,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-ensalada-fria-800.webp",
+        "bytes": 35718,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-entremes.jpg",
+    "original_bytes": 149360,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-entremes-480.webp",
+        "bytes": 16786,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-entremes-800.webp",
+        "bytes": 31872,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-espagueti.jpg",
+    "original_bytes": 179899,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-espagueti-480.webp",
+        "bytes": 23290,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-espagueti-800.webp",
+        "bytes": 46380,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-expreso.jpg",
+    "original_bytes": 114104,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-expreso-480.webp",
+        "bytes": 11304,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-expreso-800.webp",
+        "bytes": 22782,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-flan.jpg",
+    "original_bytes": 113217,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-flan-480.webp",
+        "bytes": 12032,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-flan-800.webp",
+        "bytes": 24150,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-frapuchino.jpg",
+    "original_bytes": 128768,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-frapuchino-480.webp",
+        "bytes": 14858,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-frapuchino-800.webp",
+        "bytes": 30794,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-hamb-cerdo-jq.jpg",
+    "original_bytes": 174391,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-hamb-cerdo-jq-480.webp",
+        "bytes": 21858,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-hamb-cerdo-jq-800.webp",
+        "bytes": 44020,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-hamb-cerdo.jpg",
+    "original_bytes": 175166,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-hamb-cerdo-480.webp",
+        "bytes": 21384,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-hamb-cerdo-800.webp",
+        "bytes": 44750,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-hamb-doble.jpg",
+    "original_bytes": 178339,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-hamb-doble-480.webp",
+        "bytes": 22898,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-hamb-doble-800.webp",
+        "bytes": 47772,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-hamb-hawaiana.jpg",
+    "original_bytes": 177854,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-hamb-hawaiana-480.webp",
+        "bytes": 22794,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-hamb-hawaiana-800.webp",
+        "bytes": 46082,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-hamb-pollo-jq.jpg",
+    "original_bytes": 187425,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-hamb-pollo-jq-480.webp",
+        "bytes": 25292,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-hamb-pollo-jq-800.webp",
+        "bytes": 50906,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-hamb-pollo.jpg",
+    "original_bytes": 168711,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-hamb-pollo-480.webp",
+        "bytes": 19852,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-hamb-pollo-800.webp",
+        "bytes": 41194,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-hamburguesa.jpg",
+    "original_bytes": 155698,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-hamburguesa-480.webp",
+        "bytes": 16724,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-hamburguesa-800.webp",
+        "bytes": 36554,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-coctel-cajita.jpg",
+    "original_bytes": 123953,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-coctel-cajita-480.webp",
+        "bytes": 12488,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-coctel-cajita-800.webp",
+        "bytes": 27112,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-mango-estilo.jpg",
+    "original_bytes": 413968,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-mango-estilo-480.webp",
+        "bytes": 21556,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-mango-estilo-800.webp",
+        "bytes": 46328,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-manzana-cajita.jpg",
+    "original_bytes": 143100,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-manzana-cajita-480.webp",
+        "bytes": 16154,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-manzana-cajita-800.webp",
+        "bytes": 35364,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-manzana-lata.jpg",
+    "original_bytes": 156029,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-manzana-lata-480.webp",
+        "bytes": 15808,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-manzana-lata-800.webp",
+        "bytes": 37684,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-pera-cajita.jpg",
+    "original_bytes": 132127,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-pera-cajita-480.webp",
+        "bytes": 13688,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-pera-cajita-800.webp",
+        "bytes": 29174,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-pera-lata.jpg",
+    "original_bytes": 179075,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-pera-lata-480.webp",
+        "bytes": 20284,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-pera-lata-800.webp",
+        "bytes": 44880,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-pina-cajita.jpg",
+    "original_bytes": 134434,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-pina-cajita-480.webp",
+        "bytes": 14556,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-pina-cajita-800.webp",
+        "bytes": 31234,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-pina-lata.jpg",
+    "original_bytes": 145630,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-pina-lata-480.webp",
+        "bytes": 14870,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-pina-lata-800.webp",
+        "bytes": 32700,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-jugo-pina.jpg",
+    "original_bytes": 139044,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-jugo-pina-480.webp",
+        "bytes": 15264,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-jugo-pina-800.webp",
+        "bytes": 31756,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-laguna-azul.jpg",
+    "original_bytes": 131789,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-laguna-azul-480.webp",
+        "bytes": 14132,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-laguna-azul-800.webp",
+        "bytes": 29804,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-limonada.jpg",
+    "original_bytes": 123954,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-limonada-480.webp",
+        "bytes": 11812,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-limonada-800.webp",
+        "bytes": 24752,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-logo-transparente.png",
+    "original_bytes": 1341922,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-logo-transparente-600.webp",
+        "bytes": 81684,
+        "width": 600,
+        "height": 300
+      },
+      {
+        "file": "images/optimized/garibaldi-logo-transparente-1000.webp",
+        "bytes": 170078,
+        "width": 1000,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-malta.jpg",
+    "original_bytes": 167774,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-malta-480.webp",
+        "bytes": 18910,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-malta-800.webp",
+        "bytes": 42940,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-malteada.jpg",
+    "original_bytes": 116104,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-malteada-480.webp",
+        "bytes": 11718,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-malteada-800.webp",
+        "bytes": 24194,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-mapa.png",
+    "original_bytes": 875098,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-mapa-480.webp",
+        "bytes": 248892,
+        "width": 480,
+        "height": 498
+      },
+      {
+        "file": "images/optimized/garibaldi-mapa-800.webp",
+        "bytes": 604306,
+        "width": 800,
+        "height": 830
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-maxmato.jpg",
+    "original_bytes": 117383,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-maxmato-480.webp",
+        "bytes": 13482,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-maxmato-800.webp",
+        "bytes": 28812,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-mocha.jpg",
+    "original_bytes": 151618,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-mocha-480.webp",
+        "bytes": 18838,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-mocha-800.webp",
+        "bytes": 38554,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pina-colada.jpg",
+    "original_bytes": 118998,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pina-colada-480.webp",
+        "bytes": 12884,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-pina-colada-800.webp",
+        "bytes": 26026,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pizza-bacon.jpg",
+    "original_bytes": 229512,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pizza-bacon-480.webp",
+        "bytes": 31242,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-pizza-bacon-800.webp",
+        "bytes": 65172,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pizza-familiar-gouda.jpg",
+    "original_bytes": 815879,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pizza-familiar-gouda-480.webp",
+        "bytes": 52240,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-pizza-familiar-gouda-800.webp",
+        "bytes": 120212,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pizza-garibaldi-20261020.jpg",
+    "original_bytes": 898017,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pizza-garibaldi-20261020-480.webp",
+        "bytes": 61948,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "file": "images/optimized/garibaldi-pizza-garibaldi-20261020-800.webp",
+        "bytes": 155462,
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pizza-hawaiana.jpg",
+    "original_bytes": 264812,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pizza-hawaiana-480.webp",
+        "bytes": 33960,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-pizza-hawaiana-800.webp",
+        "bytes": 75312,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pizza-queso.jpg",
+    "original_bytes": 229595,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pizza-queso-480.webp",
+        "bytes": 28982,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-pizza-queso-800.webp",
+        "bytes": 63428,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pizza-vegetales.jpg",
+    "original_bytes": 194781,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pizza-vegetales-480.webp",
+        "bytes": 24006,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-pizza-vegetales-800.webp",
+        "bytes": 52010,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-pizzagueti.jpg",
+    "original_bytes": 218672,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-pizzagueti-480.webp",
+        "bytes": 29426,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-pizzagueti-800.webp",
+        "bytes": 61910,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-portada.jpg",
+    "original_bytes": 109410,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-portada-480.webp",
+        "bytes": 15936,
+        "width": 480,
+        "height": 240
+      },
+      {
+        "file": "images/optimized/garibaldi-portada-800.webp",
+        "bytes": 30504,
+        "width": 800,
+        "height": 400
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-refresco-cola.jpg",
+    "original_bytes": 224994,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-refresco-cola-480.webp",
+        "bytes": 29068,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-refresco-cola-800.webp",
+        "bytes": 65888,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-refresco-limon.jpg",
+    "original_bytes": 216673,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-refresco-limon-480.webp",
+        "bytes": 27834,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-refresco-limon-800.webp",
+        "bytes": 62428,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-refresco-naranja.jpg",
+    "original_bytes": 197626,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-refresco-naranja-480.webp",
+        "bytes": 23752,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-refresco-naranja-800.webp",
+        "bytes": 51156,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-refresco-pina.jpg",
+    "original_bytes": 202958,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-refresco-pina-480.webp",
+        "bytes": 26224,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-refresco-pina-800.webp",
+        "bytes": 54762,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-sangria.jpg",
+    "original_bytes": 129265,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-sangria-480.webp",
+        "bytes": 14342,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-sangria-800.webp",
+        "bytes": 28796,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-spirit-gin.png",
+    "original_bytes": 767886,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-spirit-gin-480.webp",
+        "bytes": 5118,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-spirit-gin-800.webp",
+        "bytes": 10578,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-spirit-naranja.png",
+    "original_bytes": 764090,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-spirit-naranja-480.webp",
+        "bytes": 5700,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-spirit-naranja-800.webp",
+        "bytes": 11440,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-tequila.jpg",
+    "original_bytes": 118476,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-tequila-480.webp",
+        "bytes": 13258,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-tequila-800.webp",
+        "bytes": 26842,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-tigon.jpg",
+    "original_bytes": 77250,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-tigon-480.webp",
+        "bytes": 7410,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-tigon-800.webp",
+        "bytes": 14340,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-tinto-verano.jpg",
+    "original_bytes": 118981,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-tinto-verano-480.webp",
+        "bytes": 12544,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-tinto-verano-800.webp",
+        "bytes": 25350,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "source": "garibaldi-tiritas.jpg",
+    "original_bytes": 232739,
+    "variants": [
+      {
+        "file": "images/optimized/garibaldi-tiritas-480.webp",
+        "bytes": 28426,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "images/optimized/garibaldi-tiritas-800.webp",
+        "bytes": 62136,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+]

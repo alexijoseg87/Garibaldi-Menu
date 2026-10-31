@@ -32,3 +32,12 @@ Halloween aprobado para publicación el 2026-10-28: logo transparente, violeta m
 - Worker desplegado desde Cloudflare, versión 242aab8a. Fuente respaldada en `backend/garibaldi-api-worker.js`. Editar ese archivo en Git no despliega automáticamente el Worker de API; publicar desde el panel o flujo autenticado existente.
 - API verificada: «Cristal de Botella», ID de variante 376d880e-ec4b-4c7b-9aa5-dae0e676ea72, 1.100 CUP obtenidos de Loyverse. Se mantiene la sincronización automática y la foto local ilustrativa.
 - Menú público verificado con las cuatro Cristal distintas: botella normal, Extra, Extra botella y lata.
+
+## Optimización de imágenes — 2026-10-31
+
+- 78 imágenes disponibles del menú y portada tienen copias WebP en `images/optimized/`, con variantes de 480/800 px y logo transparente de 600/1000 px. Los originales se conservan y sirven como fallback.
+- `menu/index.html` usa `<picture>` y carga las fotos mediante IntersectionObserver cerca de la vista; se desconecta el observador al volver a renderizar por búsqueda o actualización de precios.
+- Mapa en WebP sin pérdida; QR, favicon y apple-touch-icon conservan sus originales para no afectar su lectura.
+- `scripts/optimize-images.py` regenera los archivos con Pillow; `images/optimized/manifest.json` registra tamaños y fuentes. El script informa dos referencias históricas sin archivo (`garibaldi-pizza-blanco.jpg`, `garibaldi-pizza-familiar.jpg`) y no genera sustitutos.
+- `_headers` permite caché de las variantes durante un día. No se cambian precios, filtros de Loyverse, pedidos ni el tema visual.
+- Archivos originales referenciados disponibles: 17.51 MB; conjunto móvil: 1.73 MB; escritorio: 3.77 MB. Estos totales no equivalen a la descarga inicial: solo se solicitan las imágenes cercanas a pantalla.
