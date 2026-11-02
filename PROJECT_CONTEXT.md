@@ -41,3 +41,7 @@ Halloween aprobado para publicación el 2026-10-28: logo transparente, violeta m
 - `scripts/optimize-images.py` regenera los archivos con Pillow; `images/optimized/manifest.json` registra tamaños y fuentes. El script informa dos referencias históricas sin archivo (`garibaldi-pizza-blanco.jpg`, `garibaldi-pizza-familiar.jpg`) y no genera sustitutos.
 - `_headers` permite caché de las variantes durante un día. No se cambian precios, filtros de Loyverse, pedidos ni el tema visual.
 - Archivos originales referenciados disponibles: 17.51 MB; conjunto móvil: 1.73 MB; escritorio: 3.77 MB. Estos totales no equivalen a la descarga inicial: solo se solicitan las imágenes cercanas a pantalla.
+
+## Noviembre — 2026-11-01
+
+Usuario eligió la segunda vista previa: Acción de Gracias, dorado y burdeos, espigas discretas y «Gracias por compartir nuestra mesa». Sustituye Halloween; mantiene logo, fotos optimizadas y funcionamiento del menú.
