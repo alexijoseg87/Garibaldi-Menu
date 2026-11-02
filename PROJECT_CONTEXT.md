@@ -45,3 +45,5 @@ Halloween aprobado para publicación el 2026-10-28: logo transparente, violeta m
 ## Noviembre — 2026-11-01
 
 Usuario eligió la segunda vista previa: Acción de Gracias, dorado y burdeos, espigas discretas y «Gracias por compartir nuestra mesa». Sustituye Halloween; mantiene logo, fotos optimizadas y funcionamiento del menú.
+
+Portada renovada en noviembre: logo WebP reutilizado, bienvenida «Los buenos momentos se comparten», dorado/burdeos y enlaces al menú, domicilio y ubicación. Sin dependencias externas ni imágenes nuevas; HTML/CSS adaptable al móvil.
